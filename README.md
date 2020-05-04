@@ -19,6 +19,4 @@ Developing this project with tech with excelent perfomance, even if it took me m
 ## What I learned
 
 ## What's next for Qarantine.IO
-> Permanent authorization to essential personnel (health professionals, security and armed forces and government officials)
-> Unauthorize citizens that have recently arrived from other countries to leave their residences for 14 days
-> Record citizens violating enforced mandatory quarantine by leaving their residence when their status is unauthorized. Making easier further legal punishments
+In first place it lacks a feature that allows grantinig permanent authorization to essential personnel (health professionals, security and armed forces and government officials). Also unauthorize citizens that have recently arrived from other countries to leave their residences for 14 days. Finally, record citizens violating enforced mandatory quarantine by leaving their residence when their status is unauthorized. Making easier further legal punishments
