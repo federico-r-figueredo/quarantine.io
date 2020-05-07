@@ -1,21 +1,18 @@
-## Inspiration
-Having so much experiences in my country of citizens that do not obbey mandatory quarantine restrictions imposed by the government. Enhacing CoV-2 spreading speed.
+# Quarantine.IO #
 
-## What it does
-This mobile application allows federal, provincial and municipal governments to enforce mandatory quarantine restrictions to the population during SARS-COVID-19 pandemic by implementing personalized minimum time intervals in order to go out and buy comestibles (e.g.: once every 7 days) for each person. 
+### What it is ###
+It´s a free and open source mobile application that allows governments impose and enforce mandatory quarantine restrictions upon citizens, to avoid SARS-CoV-2 spreading amid current COVID-19 pandemic
 
-## How I built it
-Using Java, Android Studio & Google Firebase
+### What it does ###
+* Impose citizens a minimum time interval to leave their residences to acquire comestibles and items in shops (e.g.: once every 7 days). They will be able to check their status and next authorized date
+* Merchants will be able to query a citizen´s status, and evaluate if he or she has authorization to leave their residences and make purchases that day
+* Law enforcement officials such as security forces or deployed armed forces will be able to query a citizen´s status, to evaluate if he or she has authorization to leave their residences and circulate in public spaces that day
 
-## Challenges I ran into
-Achieving verification of user´s data input
+### How it works ###
+Citizens must to register by sending their data and a picture of their natonal identification document. User data will be checked by image recognition A.I. that will verify if it matches with data found in the uploaded picture. After being verified, the individual will be able to generate a QR code. Authorities or merchants will be able to scan the citizen´s QR code with their camera and evaluate if that subject is allowed or not to leave their residence.
 
-## Accomplishments that I'm proud of
-Developing this project with tech with excelent perfomance, even if it took me more time. Rather than using React Native to speed up development but having a less performant application.
+### How I built it ###
+It was coded in Java using Android Studio IDE. Cloud infrastructure relies on Google Cloud Computing, Google Firebase Realtime Database and Google Artificial Intelligence ML Kit.
 
-## What I learned
-
-## What's next for Qarantine.IO
-    - Permanent authorization to essential personnel (health professionals, security and armed forces and government officials)
-    - Unauthorize citizens that have recently arrived from other countries to leave their residences for 14 days
-    - Record citizens violating enforced mandatory quarantine by leaving their residence when their status is unauthorized. Making easier further legal punishments
+### What's next for Qarantine.IO ###
+In first place it lacks a feature that allows grantinig permanent authorization to essential personnel (health professionals, security and armed forces and government officials). Also unauthorize citizens that have recently arrived from other countries to leave their residences for 14 days. Finally, record citizens violating enforced mandatory quarantine by leaving their residence when their status is unauthorized. Making easier further legal punishments
