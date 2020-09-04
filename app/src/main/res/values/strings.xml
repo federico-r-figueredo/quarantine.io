@@ -49,4 +49,11 @@
     <string name="us_federal_government">US Federal Government</string>
     <string name="individual">INDIVIDUAL</string>
     <string name="covid_19_nmandatory_nquarantine">COVID-19\nMANDATORY\nQUARANTINE</string>
+    <string name="title_activity_login">login</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">675126383330564</string>
+    <string name="fb_login_protocol_scheme">fb675126383330564</string>
+    <string name="twitter_consumer_key" translatable="false">YOUR_CONSUMER_KEY</string>
+    <string name="twitter_consumer_secret" translatable="false">YOUR_CONSUMER_SECRET</string>
 </resources>

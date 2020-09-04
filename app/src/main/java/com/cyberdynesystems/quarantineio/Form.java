@@ -1,7 +1,7 @@
-package com.example.myapp;
+package com.cyberdynesystems.quarantineio;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.res.ResourcesCompat;
+
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;

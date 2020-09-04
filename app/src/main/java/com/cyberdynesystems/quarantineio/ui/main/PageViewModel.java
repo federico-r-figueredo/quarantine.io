@@ -1,4 +1,4 @@
-package com.example.myapp.ui.main;
+package com.cyberdynesystems.quarantineio.ui.main;
 
 import androidx.arch.core.util.Function;
 import androidx.lifecycle.LiveData;

@@ -1,4 +1,4 @@
-package com.example.myapp;
+package com.cyberdynesystems.quarantineio;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.myapp", appContext.getPackageName());
+        assertEquals("com.cyberdynesystems.quarantineio", appContext.getPackageName());
     }
 }

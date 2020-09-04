@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:988611013856:android:80323a114179a009fc7485",
+        "android_client_info": {
+          "package_name": "com.cyberdynesystems.quarantineio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988611013856-3a9ckflr10ah80niva043c9n17nj4gep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3t2gmOuvlbfi3P4SK-mb1tf1Md7C4f5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988611013856-3a9ckflr10ah80niva043c9n17nj4gep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:988611013856:android:e5dfdaba505c3940fc7485",
         "android_client_info": {
           "package_name": "com.example.myapp"

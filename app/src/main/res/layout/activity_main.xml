@@ -8,31 +8,10 @@
 
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="58dp"
-        android:layout_marginLeft="58dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginRight="59dp"
-        android:layout_marginBottom="10dp"
-        android:text="KINGDOM OF FIGUEREDO"
-        android:textSize="20sp"
-        app:fontFamily="@font/trajan"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="75dp"
-        android:layout_marginLeft="75dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="COVID-19 MANDATORY QUARANTINE"
@@ -43,16 +22,16 @@
         app:layout_constraintBottom_toTopOf="@+id/customer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <Button
         android:id="@+id/customer"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="250dp"
         android:layout_height="70dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="15dp"
-        android:background="@drawable/custom_button_1"
+        android:background="@drawable/custom_button_4"
         android:drawableStart="@drawable/ic_face"
         android:drawableLeft="@drawable/ic_face"
         android:gravity="center"
@@ -79,8 +58,8 @@
         android:layout_width="250dp"
         android:layout_height="70dp"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="50dp"
-        android:background="@drawable/custom_button_1"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/custom_button_4"
         android:drawableStart="@drawable/ic_account_balance"
         android:drawableLeft="@drawable/ic_account_balance"
         android:gravity="center"
@@ -102,32 +81,19 @@
         app:layout_constraintTop_toBottomOf="@+id/customer" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
-        android:contentDescription="@string/us_federal_government"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/rof_coat_transparent_2" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="115dp"
-        android:layout_marginLeft="115dp"
+        android:id="@+id/imageView6"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="114dp"
-        android:layout_marginRight="114dp"
-        android:text="DIVIDE ET IMPERA"
-        android:textSize="18sp"
-        app:fontFamily="@font/trajan"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cs_logo_2_x_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

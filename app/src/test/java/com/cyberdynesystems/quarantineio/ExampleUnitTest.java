@@ -1,4 +1,4 @@
-package com.example.myapp;
+package com.cyberdynesystems.quarantineio;
 
 import org.junit.Test;
 
